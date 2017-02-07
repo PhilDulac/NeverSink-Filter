@@ -137,6 +137,26 @@
 # [[0100]] Global override section - add your rules here
 #===============================================================================================================
 
+#------------------------------------
+#   [0104] Mid tier maps override (T6-10)
+#          Make maps tier 8, 9 and 10 text bigger
+#------------------------------------
+
+Show # Maps:T10
+	DropLevel >= 77
+	Class Maps
+	SetFontSize 41
+
+Show # Maps:T9
+	DropLevel >= 76
+	Class Maps
+	SetFontSize 41
+
+Show # Maps:T8
+	DropLevel >= 75
+	Class Maps
+	SetFontSize 41
+	
 #===============================================================================================================
 # [[0200]] Recipes, Magic and Normal items (endgame!)
 #===============================================================================================================
