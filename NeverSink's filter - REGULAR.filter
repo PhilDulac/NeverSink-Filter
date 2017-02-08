@@ -138,26 +138,6 @@
 # [[0100]] Global override section - add your rules here
 #===============================================================================================================
 
-#------------------------------------
-#   [0104] Mid tier maps override (T6-10)
-#          Make maps tier 8, 9 and 10 text bigger
-#------------------------------------
-
-Show # Maps:T10
-	DropLevel >= 77
-	Class Maps
-	SetFontSize 41
-
-Show # Maps:T9
-	DropLevel >= 76
-	Class Maps
-	SetFontSize 41
-
-Show # Maps:T8
-	DropLevel >= 75
-	Class Maps
-	SetFontSize 41
-	
 #===============================================================================================================
 # [[0200]] Recipes, Magic and Normal items (endgame!)
 #===============================================================================================================
@@ -2145,7 +2125,7 @@ Show # Maps:T14
 Show # Maps:T13
 	DropLevel >= 80
 	Class Maps
-	SetFontSize 43
+	SetFontSize 44
 	SetTextColor 0 0 0 255               # TEXTCOLOR:	 Cosmetic: Black Text
 	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Cosmetic: Highlight good drops
 	SetBackgroundColor 200 200 200 255   # BACKGROUND:	 T11-T14 maps
@@ -2154,7 +2134,7 @@ Show # Maps:T13
 Show # Maps:T12
 	DropLevel >= 79
 	Class Maps
-	SetFontSize 42
+	SetFontSize 44
 	SetTextColor 0 0 0 255               # TEXTCOLOR:	 Cosmetic: Black Text
 	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Cosmetic: Highlight good drops
 	SetBackgroundColor 200 200 200 255   # BACKGROUND:	 T11-T14 maps
@@ -2163,7 +2143,7 @@ Show # Maps:T12
 Show # Maps:T11
 	DropLevel >= 78
 	Class Maps
-	SetFontSize 41
+	SetFontSize 44
 	SetTextColor 0 0 0 255               # TEXTCOLOR:	 Cosmetic: Black Text
 	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Cosmetic: Highlight good drops
 	SetBackgroundColor 200 200 200 255   # BACKGROUND:	 T11-T14 maps
@@ -2176,21 +2156,21 @@ Show # Maps:T11
 Show # Maps:T10
 	DropLevel >= 77
 	Class Maps
-	SetFontSize 39
+	SetFontSize 41
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 T6-10 maps, currency, talismans
 	PlayAlertSound 4 300                 # DROPSOUND:	 T1 maps
 
 Show # Maps:T9
 	DropLevel >= 76
 	Class Maps
-	SetFontSize 39
+	SetFontSize 41
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 T6-10 maps, currency, talismans
 	PlayAlertSound 4 300                 # DROPSOUND:	 T1 maps
 
 Show # Maps:T8
 	DropLevel >= 75
 	Class Maps
-	SetFontSize 38
+	SetFontSize 41
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 T6-10 maps, currency, talismans
 	PlayAlertSound 4 300                 # DROPSOUND:	 T1 maps
 
