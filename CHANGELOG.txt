@@ -1,4 +1,58 @@
 ----------------------------------
+NeverSink's itemfilter - version 4.6 - Legacy League - Major update
+----------------------------------
+
+Features:
+
+- Retiered and repriced all uniques.
+- Retiered divination cards and added 2 new cards to the tierlists
+- Adjusted the leveling section a lot. It now has better highlights for 4L, useful racing gear, some flasks, "brutus-killing-equip" etc.
+- Adjusted the chance bases
+- Completely reworte the map tier lists. The new map tier list shows low tier maps, and highlights them, WHEN you are in lowtier maps. Once you outlevel the map drops (7 levels difference between the droptier and the itemlevel) the map becomes "greyed out" and hidden on high strictness version of the lootfilter. The exceptions are maps of tier 10 or higher (never hidden) and all shaped maps.
+- Adjusted several colors, settings, lot's and lot's of finetuning
+- Gems with 14%+ qual are now more visible
+- Lot's of minor adjustments to the structure, that improve the performance and allow me to generate the filters easier.
+- Fixed the blue/slick styles, sometimes still having some "old" green backgrounds.
+- Added a new "streamsound" style, that has an alt. soundsscheme - it's designed for streamers and streamviewers to not get confused when the other side find a good item.
+- Adjusted the rare tierlist towards the upcoming economy
+- Adjusted the crafting bases towards the upcoming economy
+- Made the semi-strict filter more strict towards 2-handed and bulky bases. 
+- Some stylistic and performance improvements - updated my tools to use "tierlists" that group together different levels, basetypes, classes for easier editing
+
+----------------------------------
+NeverSink's itemfilter - version 4.5 new version, major meta and toolchain adjustments.
+----------------------------------
+
+- Refined **all** filters to match the meta/economy more
+- Adjusted the unique tier list
+- Renamed the filenames a tiny bit so that they're ordered correctly.
+- Added a new version: "Very Strict". It's about as strict as the old Uber-Strict, but fits the economy better. If you liked Uber-Strict before, you should probably stick to this version now.
+- The Uber-Strict filter is now even **more** strict (double-dips!) and only shows the meta-rares.
+- The strictness gap between Regular<->Semi-Strict has been increased a bit, while the one between Semi-Strict<->Strict decreased a bit.
+- Improved my mini-toolchain to allow quicker and more frequent updates
+- Adjusted font-sizes to be slightly more uniform
+
+Feature Balance:
+
+- Finetuned the T1-rares to match the meta. They're mostly consisting out of ES items.
+- Added the T1.5 rares. These rares are shown in every version, but will have a black background in the Uber-Strict version instead of green.
+- Finetuned the T2-rares to match the meta.
+- Finetuned the good/ok/bad rare balance. It's more strict in general.
+- Reworked the dagger tier lists (more high tier daggers shown)
+- Reworked the sceptre tier lists (Void and Sambar sceptre are now T2 bases)
+- Harbingers and spike-point quivers moved a tier down.
+- ILVL 84 Steel/Opal/Crystal belts now give off the T1 Drop sound
+- Refined the section handling rare Atlas bases
+- Chancing items now have priority over the regular crafting section. However, the 84+ crafting section still has priority over the chancing items
+- Removed Jewelled foil from the T1 crafting (and crafting rare) items to the T2 crafting items.
+- Fixed several minor bugs
+- Added 20% qual. shields/daggers to the 20% section
+- Removed a few redundant entries
+- Changed the default "Animated Weapon"-items appearance. The items are now way small, because most meta-AW builds rely on cast while channelling or totems.
+- Potential warband items and corrupted white amulets/belts (for "corrupted alchemy darkshrine" in labs) are not shown by default on the Very Strict and higher versions (still shown if you hold alt.)
+- Made the hidden items even smaller. (the ones you see while holding ALT)
+
+----------------------------------
 NeverSink's itemfilter - version 4.43 minor update
 ----------------------------------
 
